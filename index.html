@@ -7,31 +7,18 @@
         background: #1a1a1a;
         color: #ffffff;
       }
-      div {
-        width: 100vw; /* Play with this value */
-        height: 100vh;  /* Play with this value */
-        font-size: 0;
-        text-align: center;
-      }
-      div:before {
-        content: "";
-        width: 1px;
-        height: 100%;
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: -1px;
-      }
       div video {
-        max-width: 100%;
-        max-height: 100%;
-        display: inline-block;
-        vertical-align: middle;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
       }
     </style>
   </head>
   <body>
     <div>
-      <video src="https://MokiyCodes.github.io/eevee-dancing/video0-231.mp4" />
+      <video src="https://MokiyCodes.github.io/eevee-dancing/video0-231.mp4" autoplay loop />
     </div>
   </body>
 </html>
